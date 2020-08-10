@@ -1,0 +1,50 @@
+<div class="container">
+    <header class="burger-header">
+        <h1 class="header-info">Blues Burger Bar</h1>
+        <h2 class="header-info" id="intro">Try one of our burgers below!</h2>
+    </header>
+    <div class="row burger-menu">
+        <!-- burgers -->
+        <div class="col-md-6 available-burgers">
+            <!-- left column -->
+            <h2 id="left">Available Burgers!</h2>
+            <p class="instructions">Click the button in the left column to eat any burger in stock. </p>
+            <ul>
+                {{#each hamburgers}}
+                {{#unless devoured}}
+                {{> hamburgers/hamburgers-block}}
+                {{/unless}}
+                {{/each}}
+            </ul>
+        </div> {{!-- left column --}}
+        <div class="col-md-6 eaten-burgers">
+            <!-- right column -->
+            <h2 id="right">Already Devoured!</h2>
+            <p class="instructions">These burgers have been eaten. </p>
+            <ul>
+                {{#each hamburgers}}
+                {{#if devoured}}
+                {{> hamburgers/hamburgers-block}}
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div> <!-- right column -->
+    </div> {{!-- row --}}
+    <section class="add-hamburger">
+
+        <h2 id="form-add">Add a Burger</h2>
+        <p id="add-instructions">Don't see your favorite burger on the list? Add it to the menu!</p>
+        <form class="create-form">
+            <div class="form-group">
+                <label for="ca">Burger Name:</label>
+                <input type="text" id="ca" name="name">
+            </div>
+            <div class="form-group">
+                <label for="slee">Devoured?</label><br>
+                <input type="radio" name="devoured" value="1" checked> Devoured!<br>
+                <input type="radio" name="devoured" value="0"> Still Available
+            </div>
+            <button type="submit">Add Burger</button>
+        </form>
+    </section>
+</div> <!-- container -->

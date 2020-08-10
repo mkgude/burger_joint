@@ -1,0 +1,38 @@
+body {
+  background-image: url(../img/jazz-clipart-silouette.png);
+  /* margin: 0; */
+}
+
+.burger-header,
+.burger-menu,
+.add-hamburger {
+  border-radius: 25px;
+  background-color: rgb(186, 206, 223);
+}
+
+h2,
+.add-hamburger,
+.instructions,
+.add-instructions,
+.header-info {
+  text-align: center;
+}
+
+.burger-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: darkblue;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.add-hamburger {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+/* 
+.available-burgers,
+.eaten-burgers {
+  margin: 5px;
+} */
