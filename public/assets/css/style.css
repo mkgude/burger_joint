@@ -31,6 +31,22 @@ h2,
   margin-bottom: 20px;
   padding: 10px;
 }
+
+.add-devour-btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+ul {
+  list-style-image: url("https://icons.iconarchive.com/icons/google/noto-emoji-objects/24/62808-saxophone-icon.png");
+}
+
+.name {
+  font-size: 20px;
+}
+
+.list {
+}
 /* 
 .available-burgers,
 .eaten-burgers {
