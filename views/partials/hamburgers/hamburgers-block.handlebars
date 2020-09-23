@@ -1,14 +1,22 @@
 <li>
-    {{name}}
-    {{#unless devoured}}
-    <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-        Devour
-    </button>
-    {{/unless}}
+    <div class="col-sm">
+        {{name}}
+    </div>
+    <div class="col-sm">
+        {{#unless devoured}}
+        <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+            Devour
+        </button>
+        {{/unless}}
 
-    {{#if devoured}}
-    <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-        Add
-    </button>
-    {{/if}}
+        {{#if devoured}}
+        <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+            Add
+        </button>
+        {{/if}}
+    </div>
+
+
+
+
 </li>
