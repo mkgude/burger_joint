@@ -1,22 +1,18 @@
-# Burger Bar
+# Burger Joint
+
+A burger bar would like to share their burger choices as well as allow users to add their own requests to their menu. There is a spot for users to select their burger a spot for users to submit new burger combo ideas.
 
 ### Table of Contents
 
-1. [Description](#description)
+1. [Links](#links)
 2. [Installation](#installation)
-3. [Links](#links)
 
 ### Links
 
+- [Deployed Link](https://salty-castle-86073.herokuapp.com/)
 - [GitHub Link](https://github.com/mkgude/hamburger-joint)
 - [GitHub Repository Link](https://github.com/mkgude)
-- mkgude@gmail.com
-- [Heroku Link](https://salty-castle-86073.herokuapp.com/)
-
-## Description
-
-- A user wants to create a food menu for clients to view as well as add in their own burger suggestions.
 
 ## Installation
 
-- Use npm install to add the appropriate npm packages listed in the package.json file.
+- Clone the github and use npm install to add the appropriate npm packages listed in the package.json file. Otherwise, select the deployed link above to use directly on your device.
