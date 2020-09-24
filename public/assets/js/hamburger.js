@@ -54,4 +54,11 @@ $(function () {
       location.reload();
     });
   });
+
+  let jazzOne = new Audio();
+  jazzOne.src =
+    "public/assets/sounds/15-seconds-2020-04-24_-_Fancy_Party_-_FesliyanStudios.com_-_Steve_Oaks.mp3";
+  function jazzTrumpet() {
+    jazzTrumpet.play();
+  }
 });

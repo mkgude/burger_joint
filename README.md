@@ -7,6 +7,10 @@ A burger bar would like to share their burger choices as well as allow users to 
 1. [Links](#links)
 2. [Installation](#installation)
 
+### App Image
+
+![App Image](public/assets/img/appImage.png)
+
 ### Links
 
 - [Deployed Link](https://salty-castle-86073.herokuapp.com/)
